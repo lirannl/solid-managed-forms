@@ -9,9 +9,11 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "types": [],
-    "outDir": "dist",
+    "noEmit": true,
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*"
+  ],
 }
