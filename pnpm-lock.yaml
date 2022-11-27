@@ -1,0 +1,29 @@
+lockfileVersion: 5.4
+
+specifiers:
+  solid-js: ^1.0
+  typesafe-object-paths: ^1.3.0
+  typescript: ^4.7
+
+dependencies:
+  solid-js: 1.0.7
+  typesafe-object-paths: 1.3.0
+
+devDependencies:
+  typescript: 4.9.3
+
+packages:
+
+  /solid-js/1.0.7:
+    resolution: {integrity: sha512-2jHCXLwp/B7P4kh5tl0ospRaC2F++BU0uWwtfgK/8Zc/MROOyCmmkjHpLAQC2u2NWYVGnIclDIJ2FGDXJ0wcYg==}
+    dev: false
+
+  /typesafe-object-paths/1.3.0:
+    resolution: {integrity: sha512-oOU3sKCzDEqCyDzUYp6WdVz1w2Olc7+yyuIe0L3C+gGgMMwiA5yV6J5MwxIVLI2L/SOVpD4lY9VskFRyYqOVWw==}
+    dev: false
+
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
