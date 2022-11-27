@@ -3,7 +3,7 @@ import { JSX } from "solid-js/jsx-runtime";
 import { createStore } from "solid-js/store";
 import { NestedKeyOf } from "typesafe-object-paths";
 
-export const createForm = <State extends Record<string, unknown> | unknown[],
+export const createForm = <State extends object,
     Form extends Record<NestedKeyOf<State>, Record<string, unknown>>,>
     (props: {
         initialState?: Partial<State> | Accessor<Partial<State>> | Resource<Partial<State>>, stateToForm: (state: State) => Form,
